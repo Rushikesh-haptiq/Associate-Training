@@ -1,11 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Assignment 2</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="flex justifyEnd p-10 gap-2 textNone">
+          <li class="textBold">
+            <a href="#" class="textNone textBlack">Works</a>
+          </li>
+          <li class="textBold">
+            <a href="#" class="textNone textBlack">Blog</a>
+          </li>
+          <li class="textBold">
+            <a href="#" class="textNone textBlack">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- section 1 -->
+      <section class="mb-5">
+        <div class="container flex mAuto  justifyAround ItemCenter">
+          <!--  internal content -->
+          <div>
+            <h1 class="fontSize-44">
+              Hi, I am John, <br />
+              Creative Technologist
+            </h1>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet <br />
+              sint. Velit officia consequat duis enim velit mollit. Exercitation
+              veniam <br />
+              consequat sunt nostrud amet.
+            </p>
+            <button class="btn btnPrimary">Download Resume</button>
+          </div>
+
+          <!-- img -->
+          <div>
+            <img src="img/Banar.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- section 2 -->
+      <section class="bgSky mb-5 p-20">
+        <div class="container  mAuto  justifyEvenly p-30 ItemCenter">
+          <div class="flex  justifyBetween w-40 p-10 mAuto ItemCenter">
+            <div class="fontSize-22 fontWeight-400">Recent posts</div>
+            <div class="fontSize-16 textBlue cursorPointer">View all</div>
+          </div>
+          <div>
+          <div class="flex gap-2 justifyCenter p-10">
+            <div class="cardContainer">
+              <h2>
+                Making a design system from
+                <br />
+                scratch
+              </h2>
+              <div class="cardContent">
+                <span>12 Feb 2020</span> | <span> Design, Pattern</span>
+              </div>
+              <p class="fontSize-18">
+                Amet minim mollit non deserunt ullamco est sit <br />
+                aliqua dolor do amet sint. Velit officia consequat <br />
+                duis enim velit mollit. Exercitation veniam <br />
+                consequat sunt nostrud amet.
+              </p>
+            </div>
+            <div class="cardContainer">
+              <h2>Creating pixel perfect icons in <br />Figma</h2>
+              <div class="cardContent">
+                <span>12 Feb 2020</span> | <span>Figma, icon Design</span>
+              </div>
+              <p class="fontSize-18">
+                Amet minim mollit non deserunt ullamco est sit <br />
+                aliqua dolor do amet sint. Velit officia consequat <br />
+                duis enim velit mollit. Exercitation veniam <br />consequat sunt
+                nostrud amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section 3 -->
+      <section>
+        <div class="container mAuto mb-10">
+          <div
+            class="flex  justifyBetween w-40 p-5 mAuto ItemCenter fontSize-22 fontWeight-400"
+          >
+            Featured works
+          </div>
+          <div class="cardFeature">
+            <div>
+              <img src="img/cardimage1.svg" alt="Dashboard_image" />
+            </div>
+            <div class="cardFeatureDiv2">
+              <h2>Designing Dashboard</h2>
+              <div class="flex ItemCenter gap-3 fontWeight-900 "><span class="bgDark textWhite rounded-5 px-5">2020</span> <span class="fontWeight-400 fontSize-22 fontWeight-400 textLightBlue">Dashboard</span></div>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit <br> officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt <br> nostrud amet.
+              </p>
+            </div>
+          </div>
+          <div class="cardFeature">
+            <div>
+              <img src="img/cardImage2.svg" alt="portrait_image" />
+            </div>
+            <div class="cardFeatureDiv2">
+              <h2>Vibrant Portraits of 2020</h2>
+              <div class="flex ItemCenter gap-3 fontWeight-900 "><span class="bgDark textWhite rounded-5 px-5">2018</span> <span class="fontWeight-400 fontSize-22 fontWeight-400 textLightBlue">Illustration</span></div>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit <br> officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt <br> nostrud amet.
+              </p>
+            </div>
+          </div>
+          <div class="cardFeature">
+          <div>
+
+              <img src="img/cardImage3.svg" alt="typography_image" />
+          </div>
+          
+            <div class="cardFeatureDiv2">
+              <h2>36 Days of Malayalam type</h2>
+              <div class="flex ItemCenter gap-3 fontWeight-900 "><span class="bgDark textWhite rounded-5 px-5">2018</span> <span class="fontWeight-400 fontSize-22 fontWeight-400 textLightBlue">Typography</span></div>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit <br> officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt <br> nostrud amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class=" mAuto mb-2">
+        <ul class="flex justifyCenter mAuto p-5  textNone gap-3 mb-1">
+          <li>
+            <a href="#"><img src="img/fb.svg" alt="facebook_logo" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/in.svg" alt="instagram_logo" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/te.svg" alt="twitter_logo" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/link.svg" alt="linkedin_log" /></a>
+          </li>
+        </ul>
+        
+       
+
+   <div class="flex justifyCenter fontWeight-400 "> Copyright &copy; All rights reserved</div>
+        
+  
+    </footer>
+  </body>
 </html>
