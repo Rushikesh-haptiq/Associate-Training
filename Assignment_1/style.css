@@ -79,6 +79,9 @@ cursor:pointer;
   flex-direction: column;
   align-items: center;
 }
+.section1{
+width:700px;
+}
 .section-1 h1 {
   text-align: center;
   color: #1e0e62;
@@ -91,7 +94,7 @@ cursor:pointer;
   width: 600px;
   font-size: 22px;
   text-align: center;
-  color: #15143966;
+/* width: 700px; */
   margin-bottom: 4rem;
   /* border:2px solid red; */
 }
@@ -145,3 +148,6 @@ cursor:pointer;
   border-left: 2px solid #ebeaed;
   padding: 0 100px;
 }
+
+
+/* camelcase and a tag for links button for submit  paragraph not style single container container width 1200px  title clickable*/
