@@ -47,6 +47,10 @@ body {
 .gap-20 {
   gap: 200px;
 }
+.shadow{
+    box-shadow:0 10px  #EDF7FA;
+    border-radius: 50%;
+}
 .textNone {
   text-decoration: none;
   list-style: none;
@@ -93,6 +97,9 @@ body {
 }
 .fontSize-44 {
   font-size: 44px;
+}
+.header-container{
+  width: 1600px;
 }
 .fontSize-22 {
   font-size: 22px;
@@ -203,4 +210,9 @@ gap:30px;
 .cardFeatureDiv2{
 margin-bottom: 45px;
 }
-
+.bg-h{
+  background-color: #E0E0E0;
+}
+.border-b{
+  border-bottom: 1px solid #E0E0E0;
+}
