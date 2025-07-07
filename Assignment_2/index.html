@@ -7,17 +7,21 @@
     <title>Assignment 2</title>
   </head>
   <body>
-    <header class="header-container">
+    <header>
+    
+<div class="logo">
+  <a href="#">rushi.com</a>
+</div>
       <nav>
-        <ul class="flex justifyEnd p-10 gap-2 textNone">
-          <li class="textBold">
-            <a href="#" class="textNone textBlack">Works</a>
+        <ul class="ulSection">
+          <li >
+            <a href="#">Works</a>
           </li>
-          <li class="textBold">
-            <a href="#" class="textNone textBlack">Blog</a>
+          <li>
+            <a href="#">Blog</a>
           </li>
-          <li class="textBold">
-            <a href="#" class="textNone textBlack">Contact</a>
+          <li>
+            <a href="#">Contact</a>
           </li>
         </ul>
       </nav>
@@ -25,10 +29,10 @@
     <main>
       <!-- section 1 -->
       <section class="mb-5">
-        <div class="container flex mAuto  justifyAround ItemCenter">
+        <div class="container MainCon1">
           <!--  internal content -->
           <div>
-            <h1 class="fontSize-44">
+            <h1>
               Hi, I am John, <br />
               Creative Technologist
             </h1>
@@ -39,24 +43,27 @@
               veniam <br />
               consequat sunt nostrud amet.
             </p>
-            <button class="btn btnPrimary cursorPointer">Download Resume</button>
+            <!-- <button class="btn btnPrimary cursorPointer">Download Resume</button> -->
+             <div class="btn">
+  <a href="#" >Download Resume</a>
+             </div>
           </div>
 
           <!-- img -->
-          <div>
-            <img class="shadow" src="img/Banar.svg" alt="" />
+          <div class="img">
+            <img src="img/bannerImage.png" alt="" />
           </div>
         </div>
       </section>
       <!-- section 2 -->
-      <section class="bgSky mb-5 p-20">
-        <div class="container  mAuto  justifyEvenly p-30 ItemCenter">
-          <div class="flex  justifyBetween w-40 p-10 mAuto ItemCenter">
-            <div class="fontSize-22 fontWeight-400">Recent posts</div>
-            <div class="fontSize-16 textBlue cursorPointer">View all</div>
+      <section class="bgSky">
+        <div class="container MainCon2">
+          <div class="mainItems">
+            <div class="mainItems1">Recent posts</div>
+            <div class="mainItems2">View all</div>
           </div>
           <div>
-          <div class="flex gap-2 justifyCenter p-10">
+          <div class="mainContents">
             <div class="cardContainer">
               <h2>
                 Making a design system from
@@ -66,7 +73,7 @@
               <div class="cardContent">
                 <span>12 Feb 2020</span> | <span> Design, Pattern</span>
               </div>
-              <p class="fontSize-18">
+              <p>
                 Amet minim mollit non deserunt ullamco est sit <br />
                 aliqua dolor do amet sint. Velit officia consequat <br />
                 duis enim velit mollit. Exercitation veniam <br />
@@ -78,7 +85,7 @@
               <div class="cardContent">
                 <span>12 Feb 2020</span> | <span>Figma, icon Design</span>
               </div>
-              <p class="fontSize-18">
+              <p>
                 Amet minim mollit non deserunt ullamco est sit <br />
                 aliqua dolor do amet sint. Velit officia consequat <br />
                 duis enim velit mollit. Exercitation veniam <br />consequat sunt
@@ -90,19 +97,17 @@
       </section>
       <!-- section 3 -->
       <section>
-        <div class="container mAuto mb-10">
-          <div
-            class="flex justifyBetween w-40 p-5 mAuto ItemCenter fontSize-22 fontWeight-400"
-          >
+        <div class="container MainCon3">
+          <div class="mainItemsFeatures" >
             Featured works
           </div>
-          <div class="cardFeature border-b">
-            <div class="cursorPointer">
+          <div class="cardFeature">
+            <div >
               <img src="img/cardimage1.svg" alt="Dashboard_image" />
             </div>
-            <div class="cardFeatureDiv2 cursorPointer">
+            <div class="cardFeatureDiv2 ">
               <h2>Designing Dashboards</h2>
-              <div class="flex ItemCenter gap-3 fontWeight-900 "><span class="bgDark textWhite rounded-5 px-5">2020</span> <span class="fontWeight-400 fontSize-22 fontWeight-400 textLightBlue">Dashboard</span></div>
+              <div class="cardItems "><span class="bgDark textWhite rounded-5 px-5">2020</span> <span class="fontWeight-400 fontSize-22 fontWeight-400 textLightBlue">Dashboard</span></div>
               <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit <br> officia consequat duis enim velit mollit.
@@ -117,7 +122,7 @@
             </div>
             <div class="cardFeatureDiv2 cursorPointer">
               <h2>Vibrant Portraits of 2020</h2>
-              <div class="flex ItemCenter gap-3 fontWeight-900 "><span class="bgDark textWhite rounded-5 px-5">2018</span> <span class="fontWeight-400 fontSize-22 fontWeight-400 textLightBlue">Illustration</span></div>
+              <div class="flex ItemCenter gap-3 fontWeight-900"><span class="bgDark textWhite rounded-5 px-5">2018</span> <span class="fontWeight-400 fontSize-22 fontWeight-400 textLightBlue">Illustration</span></div>
               <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit <br> officia consequat duis enim velit mollit.
@@ -146,8 +151,8 @@
       </section>
     </main>
 
-    <footer class=" mAuto mb-2">
-        <ul class="flex justifyCenter mAuto p-5  textNone gap-3 mb-1">
+    <footer class=" mAuto">
+        <ul class="ulFooter ">
           <li>
             <a href="#"><img src="img/fb.svg" alt="facebook_logo" /></a>
           </li>
@@ -164,7 +169,7 @@
         
        
 
-   <div class="flex justifyCenter fontWeight-400 "> Copyright &copy; All rights reserved</div>
+   <div> Copyright &copy; All rights reserved</div>
         
   
     </footer>

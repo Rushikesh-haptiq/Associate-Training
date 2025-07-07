@@ -4,6 +4,21 @@ body {
   font-family: "Heebo", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+h1{
+  font-size: 44px;
+}
+p{
+  font-size: 18px;
+}
+h2{
+  font-size: 26px;
 }
 .flex {
   display: flex;
@@ -138,25 +153,33 @@ width: 1000px;
     border-radius:25px;
 }
 .btn {
+  display: flex;
+  width: 208px;
   padding: 15px 32px;
-  margin: 10px 0;
   font-size: 20px;
-  outline: none;
   font-weight: 500;
   border: none;
   border-radius: 2px;
-}
-.btnPrimary {
   background: #ff6464;
-  color: white;
+  
 }
+.btn a{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+  margin:0 auto;
+}
+
 .bgSky {
   background: #edf7fa;
+  margin-bottom:50px;
 }
 .bgDark{
     background: #142850;
 
 }
+
 .mb-1{
     margin-bottom: 10px;
 }
@@ -168,6 +191,74 @@ width: 1000px;
 }
 .mb-10 {
   margin-bottom: 100px;
+}
+.ulSection{
+  display: flex;
+  gap:20px;
+  list-style: none;
+  font-weight: bold;
+
+}
+.ulSection li a{
+  color:black;
+  text-decoration: none;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo a{
+  text-decoration: none;
+  font-size: 22px;
+  color: #142850;
+  list-style: none;
+}
+.img{
+width: 243px;
+height: 243px;
+border-radius: 50%;
+overflow: hidden;
+}
+.MainCon1{
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.MainCon2{
+  margin: auto;
+  justify-content: space-around;
+ align-items: center;
+
+}
+.MainCon3{
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.mainItems{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 120px;
+  margin: auto;  font-weight: 400px;
+  align-items: center;
+}
+.mainItems1{
+  font-size: 22px;
+}
+.mainItems2{
+  font-size: 16px;
+color: #00A8CC;
+cursor: pointer;
+
+}
+.mainContents{
+  display: flex;
+  gap:20px;
+  justify-content: center;
+  padding: 10px 20px;
 }
 .cursorPointer{
     cursor:pointer;
@@ -193,13 +284,28 @@ width: 1000px;
   line-height: 100%;
   letter-spacing: 0px;
 }
+.cardItems{
+  font-weight: 700;
+  gap: 30px;
+  display: flex;
+  align-items: center;
+}
+.mainItemsFeatures{
+  display: flex;
+  justify-content: start;
+  font-weight: 400;
+  align-items: center;
+  border: 2px solid red;
+}
 .cardFeature{   
 display:flex;
 justify-content:center;
 width:89%;
+cursor: pointer;
 margin:20px 0;
 align-items:center;
 gap:30px;
+border-bottom:1px solid #E0E0E0;
 
 }
 .cardFeature h2{
@@ -209,10 +315,31 @@ gap:30px;
 }
 .cardFeatureDiv2{
 margin-bottom: 45px;
+cursor: pointer;
 }
 .bg-h{
   background-color: #E0E0E0;
 }
 .border-b{
   border-bottom: 1px solid #E0E0E0;
+}
+
+footer{
+  margin: 0 auto 100px auto;
+  
+}
+.ulFooter{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 2px;
+  gap:35px;
+  text-decoration: none;
+  list-style: none;
+}
+
+footer div{
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
 }
