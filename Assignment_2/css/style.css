@@ -9,7 +9,7 @@ body {
 img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* border-radius: 50%; */
 }
 h1{
   font-size: 44px;
@@ -20,48 +20,10 @@ p{
 h2{
   font-size: 26px;
 }
-.flex {
-  display: flex;
-}
-.flexCol {
-  flex-direction: column;
-}
-.justifyEnd {
-  justify-content: end;
-}
-.p-2{
-    padding:10px;
-}
-.p-5{
-    padding: 10px 40px;
-}
-.p-10 {
-  padding: 10px 50px;
-}
-.p-20 {
-  padding: 20px 50px;
-}
-.p-30 {
-  padding: 30px 50px;
-}
-.px-30{
-    padding:0 10%;
-}
-.px-5{
-    padding:0 15px;
-}
-.gap-2 {
-  gap: 25px;
-}
-.gap-3{
-    gap:35px;
-}
-.gap-4{
-    gap:40px;
-}
-.gap-20 {
-  gap: 200px;
-}
+
+
+
+
 .shadow{
     box-shadow:0 10px  #EDF7FA;
     border-radius: 50%;
@@ -92,66 +54,7 @@ h2{
 .container {
   width: 1200px;    
 }
-.border {
-  border: 2px solid red;
-}
-.mAuto {
-  margin: 0 auto;
-}
-.justifyAround {
-  justify-content: space-around;
-}
-.justifyBetween {
-  justify-content: space-between;
-}
-.justifyEvenly{
-    justify-content:space-evenly;
-}
-.justifyCenter{
-    justify-content: center;
-}
-.fontSize-44 {
-  font-size: 44px;
-}
-.header-container{
-  width: 1600px;
-}
-.fontSize-22 {
-  font-size: 22px;
-}
-.fontSize-16 {
-  font-size: 16px;
-}
-.fontSize-18{
-    font-size: 18px;
-}
-.fontWeight-400 {
-  font-weight: 400;
-}
-.fontWeight-900{
-    font-weight:900;
-}
-.w-10 {
-  width: 10px;
-}
-.w-30 {
-  width: 900px;
-}
-.w-40{
-    width:960px;
-}
-.w-50{
-width: 1000px;
-}
-.w-full {
-  width: 100%;
-}
-.ItemCenter {
-  align-items: center;
-}
-.rounded-5{
-    border-radius:25px;
-}
+
 .btn {
   display: flex;
   width: 208px;
@@ -174,24 +77,9 @@ width: 1000px;
 .bgSky {
   background: #edf7fa;
   margin-bottom:50px;
-}
-.bgDark{
-    background: #142850;
-
+  padding:20px 0;
 }
 
-.mb-1{
-    margin-bottom: 10px;
-}
-.mb-2{
-    margin-bottom:20px;
-}
-.mb-5{
-    margin-bottom:50px;
-}
-.mb-10 {
-  margin-bottom: 100px;
-}
 .ulSection{
   display: flex;
   gap:20px;
@@ -219,13 +107,17 @@ width: 243px;
 height: 243px;
 border-radius: 50%;
 overflow: hidden;
+ object-fit: cover;
+  box-shadow:0 10px  #EDF7FA;
+
 }
 .MainCon1{
   display: flex;
-  margin: auto;
+  margin: 50px auto;
   justify-content: space-around;
   align-items: center;
   cursor: pointer;
+
 }
 .MainCon2{
   margin: auto;
@@ -301,8 +193,9 @@ cursor: pointer;
 }
 .cardFeature{   
 display:flex;
-justify-content:center;
+justify-content:space-around;
 cursor: pointer;
+
 margin:20px 100px;
 align-items:center;
 gap:30px;
