@@ -21,36 +21,6 @@ h2{
   font-size: 26px;
 }
 
-
-
-
-.shadow{
-    box-shadow:0 10px  #EDF7FA;
-    border-radius: 50%;
-}
-.textNone {
-  text-decoration: none;
-  list-style: none;
-}
-.textWhite{
-    color:white;
-}
-.textBlack {
-  color: black;
-}
-.textBold {
-  font-weight: 600;
-}
-.textLightBlue{
-    color: #8695A4;
-
-}
-.textBlue {
-  color: #00a8cc;
-}
-.textBlue:hover {
-  text-decoration: underline;
-}
 .container {
   width: 1200px;    
 }
@@ -84,10 +54,11 @@ h2{
   display: flex;
   gap:20px;
   list-style: none;
-  font-weight: bold;
+  font-weight: 5  00;
 
 }
 .ulSection li a{
+  font-size: 20px;
   color:black;
   text-decoration: none;
 }
@@ -103,11 +74,14 @@ header{
   list-style: none;
 }
 .img{
+  display: flex;
+  align-items: center;
+ 
 width: 243px;
 height: 243px;
 border-radius: 50%;
 overflow: hidden;
- object-fit: cover;
+ object-fit: contain;
   box-shadow:0 10px  #EDF7FA;
 
 }
