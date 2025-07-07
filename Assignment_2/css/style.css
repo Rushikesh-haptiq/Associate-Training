@@ -74,15 +74,14 @@ header{
   list-style: none;
 }
 .img{
-  display: flex;
-  align-items: center;
+ 
  
 width: 243px;
 height: 243px;
 border-radius: 50%;
 overflow: hidden;
  object-fit: contain;
-  box-shadow:0 10px  #EDF7FA;
+  box-shadow:0 13px  #EDF7FA;
 
 }
 .MainCon1{
@@ -223,3 +222,5 @@ footer div{
   justify-content: center;
   font-weight: 400;
 }
+
+/* no more br only in heading if needed  only container  */
