@@ -294,15 +294,16 @@ cursor: pointer;
   display: flex;
   justify-content: start;
   font-weight: 400;
+  font-size: 22px;
+  margin:0 120px;
   align-items: center;
 
 }
 .cardFeature{   
 display:flex;
 justify-content:center;
-width:89%;
 cursor: pointer;
-margin:20px 0;
+margin:20px 100px;
 align-items:center;
 gap:30px;
 border-bottom:1px solid #E0E0E0;
@@ -317,6 +318,12 @@ border-bottom:1px solid #E0E0E0;
 margin-bottom: 45px;
 cursor: pointer;
 }
+.item2{
+  color: #8695A4;
+  font-weight: 400;
+  font-size: 22px;
+  
+}
 .bg-h{
   background-color: #E0E0E0;
 }
@@ -327,6 +334,12 @@ cursor: pointer;
 footer{
   margin: 0 auto 100px auto;
   
+}
+.item{
+ background: #142850;
+ color: white;
+ border-radius: 15px;
+ padding: 5px 30px;
 }
 .ulFooter{
   display: flex;
