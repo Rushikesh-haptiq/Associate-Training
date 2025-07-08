@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-weight: 800;
+  font-size: 58px;
+  letter-spacing: 0.2px;
+  line-height: 80px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.headerSection {
+  display: flex;
+  /* justify-content: center; */
+  align-content: center;
+  margin: 0 auto;
+  padding: 10px 0;
+  font-size: 14px;
+  gap: 180px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.logo {
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+
+  letter-spacing: 0.1px;
+}
+.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+.navLinks {
+  display: flex;
+  gap: 20px;
+}
+.headerItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 80px;
+}
+.navLinks li {
+  list-style: none;
+}
+.navLinks li a {
+  text-decoration: none;
+  color: #fff;
+  /* color: white; */
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+.subLinks {
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+  align-items: center;
+}
+.subLinks div a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.subLink a {
+  display: flex;
+  gap: 20px;
+}
+.subLink {
+  border-radius: 5px;
+  background: #23a6f0;
+  padding: 15px 25px;
+}
+
+.banner {
+  display: flex;
+  background-image: url("./../images/banner.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+  min-height: 80vh;
+  margin-top: -78px;
+}
+.hero {
+  float: left;
+}
+.hero h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  margin-bottom: 25px;
+  color: #fff;
+}
+.hero .btns {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  gap: 10px;
+}
+.btn1 {
+  background: #23a6f0;
+  padding: 15px 36px;
+  border-radius: 37px;
+}
+.btn1 a {
+  color: #fff;
+  text-decoration: none;
+}
+.btn2 {
+  border: 1px solid white;
+  padding: 15px 36px;
+  border-radius: 37px;
+}
+.btn2 a {
+  color: white;
+}
+/* section 2 */
+.features {
+  background: #252b42;
+  margin-top: -15px;
+  padding: 96px;
+  display: flex;
+}
+.feature {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 250px;
+  color: #fff;
+}
+.feature img {
+  margin-bottom: 13px;
+}
+.feature h5 {
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin-bottom: 13px;
+}
+.feature p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+/* section 3 */
+.IndustryCard1 {
+  padding: 112px 0;
+  background: #8ec2f2;
+}
+.industryHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  color: #fff;
+}
+.industryHeader h2 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+.industryHeader p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+.cards {
+  display: flex;
+  gap: 150px;
+  /* margin-bottom:200px ; */
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 30px 40px;
+  position: relative;
+  gap:10px;
+  /* margin-bottom: 200px; */
+  /* border: 2px solid; */
+  /* height: 288px; */
+}
+.profile {
+  display: flex;
+}
+.profile img {
+  position: absolute;
+  top: 10;
+  left: -50px;
+  object-fit: cover;
+  z-index: 10;
+}
+.IndustryCard2{
+  padding: 112px 0;
+  background: #252B42;
+
+}
+.VisualCards{
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap:40px;
+  position: relative;
+}
+.VisualCard h6{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  margin-bottom: 20px;
+  color: #fff;
+
+}
+.infoSection{
+  background: #252B42;
+  padding:50px 0;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.comInfo h5{
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  size: 16px;
+  margin-bottom:10px;
+}
+.VisualCard .btn1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.VisualCard p{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #fff;
+  margin-bottom:10px ;
+}
+.VisualCard .btn1 a{
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 22px;
+}
+
+.comInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+gap: 10px;
+}
+.comInfo > div{
+  font-size: 14px;
+  font-weight: 500;
+}
+.InfoItems{
+  display: flex;
+
+  gap:10px;
+
+}
+
+/* footer  */
+
+.footerSection{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  background: #FAFAFA;
+
+}
+.icons{
+  display: flex;
+  gap:20px;
+}
