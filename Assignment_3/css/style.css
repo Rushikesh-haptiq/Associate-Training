@@ -52,7 +52,7 @@ header div{
 }
 
 .navLinks li a:hover,
-.navLinks li a:active {
+.active {
   border-radius: 25px;
   border: 2px solid white;
   font-weight: 600;
