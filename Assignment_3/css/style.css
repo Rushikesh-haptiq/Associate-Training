@@ -129,7 +129,7 @@ header div{
   font-weight: 600;
   font-size: 0.875em;
   line-height: 1.2;
-  letter-spacing: 0.25em;
+  letter-spacing:8px;
   text-align: center;
   text-transform: uppercase;
   color: #6c00ff;
