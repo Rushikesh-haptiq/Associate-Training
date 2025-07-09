@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+/* section 1 */
 h1 {
   font-weight: 800;
   font-size: 58px;
@@ -68,6 +69,7 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+
 .subLinks div a {
   color: #fff;
   text-decoration: none;
@@ -87,9 +89,9 @@ h1 {
   display: flex;
   background-image: url("./../images/banner.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   align-items: center;
-  min-height: 80vh;
+  min-height: 100vh;
   margin-top: -78px;
 }
 .hero {
@@ -129,7 +131,6 @@ h1 {
 /* section 2 */
 .features {
   background: #252b42;
-  margin-top: -15px;
   padding: 96px;
   display: flex;
 }
@@ -193,14 +194,9 @@ h1 {
   background: #fff;
   padding: 30px 40px;
   position: relative;
-  gap:10px;
-  /* margin-bottom: 200px; */
-  /* border: 2px solid; */
-  /* height: 288px; */
+  gap: 10px;
 }
-.profile {
-  display: flex;
-}
+/*  */
 .profile img {
   position: absolute;
   top: 10;
@@ -208,93 +204,127 @@ h1 {
   object-fit: cover;
   z-index: 10;
 }
-.IndustryCard2{
+.IndustryCard2 {
   padding: 112px 0;
-  background: #252B42;
-
-}
-.VisualCards{
   display: flex;
-  justify-content: space-between;
+  background: #252b42;
+}
+.VisualCards {
+  display: flex;
+  /* border:2px solid red; */
+  justify-content: center;
 
-  align-items: center;
-
-  gap:40px;
+  gap: 40px;
   position: relative;
 }
-.VisualCard h6{
+.VisualCard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  position: relative;
+}
+.VisualCard h6 {
   font-size: 14px;
   font-weight: 600;
   line-height: 24px;
   letter-spacing: 0.2px;
+
   margin-bottom: 20px;
   color: #fff;
-
 }
-.infoSection{
-  background: #252B42;
-  padding:50px 0;
+.infoSection {
+  background: #252b42;
+  padding: 50px 0;
 }
-.info{
+.info {
   display: flex;
   justify-content: space-between;
   color: #fff;
 }
-.comInfo h5{
+.comInfo h5 {
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.1px;
   size: 16px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
-.VisualCard .btn1{
+
+.VisualCard .btn1 {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
-.VisualCard p{
+
+.VisualCard p {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 0.2px;
   color: #fff;
-  margin-bottom:10px ;
+  margin-bottom: 10px;
 }
-.VisualCard .btn1 a{
+.VisualCard .btn1 {
+  align-items: start;
+  
+}
+.VisualCard .btn1 a {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.2px;
   line-height: 22px;
 }
+.ImgWrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.VisualContent {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 
-.comInfo{
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 14.58%,
+    rgba(56, 56, 56, 0.84) 100%
+  );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 15px 20px;
+
+  box-sizing: border-box;
+
+  z-index: 1;
+}
+.comInfo {
   display: flex;
   flex-direction: column;
   justify-content: center;
-gap: 10px;
+  gap: 10px;
 }
-.comInfo > div{
+.comInfo > div {
   font-size: 14px;
   font-weight: 500;
 }
-.InfoItems{
+.InfoItems {
   display: flex;
 
-  gap:10px;
-
+  gap: 10px;
 }
 
 /* footer  */
 
-.footerSection{
+.footerSection {
   display: flex;
   justify-content: space-between;
   padding: 25px 0;
-  background: #FAFAFA;
-
+  background: #fafafa;
 }
-.icons{
+.icons {
   display: flex;
-  gap:20px;
+  gap: 20px;
 }
