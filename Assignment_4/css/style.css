@@ -365,6 +365,9 @@ align-items: center;
 }
 
 @media screen and (max-width: 420px){
+  h1{
+    font-size: 44px;
+  }
 .cards{
   width: 100%;
 }
@@ -381,8 +384,8 @@ align-items: center;
 margin-bottom: 20px ;
 }
 .card{
-  max-width: 100%;
-  padding: 10px ;
+ 
+  padding: 10px;
 }
 .card p{
   font-size: 12px;
