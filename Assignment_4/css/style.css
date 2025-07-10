@@ -17,10 +17,9 @@ h1 {
 }
 
 .headerSection{
-  /* position: absolute; */
+  
   display: flex;
   justify-content: space-between;
-  /* margin: 0 auto; */
   padding: 10px 0;
   align-items: center;
   text-align: center;
@@ -30,11 +29,11 @@ h1 {
   font-weight: 600;
 
 }
+
 .logo {
   font-size: 24px;
   line-height: 32px;
   display: flex;
-
   letter-spacing: 0.1px;
 }
 .logo a {
@@ -44,8 +43,6 @@ h1 {
 }
 .hamburgerMenu {
     background: none;
-    
-    
     display: none;
     flex-direction: column;
     justify-content: space-around;
@@ -54,9 +51,6 @@ h1 {
     padding: 0;
     z-index: 1001; /* Ensure it's above the nav when open */
 }
-
-
-
 .navLinks {
   display: flex;
   gap: 21px;
@@ -73,6 +67,8 @@ h1 {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 20px;
+  width: 100%;
   /* border: 2px solid red; */
 }
 .subLinks {
