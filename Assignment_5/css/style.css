@@ -389,7 +389,7 @@ width:100%;
 object-fit:cover;
 }
 .cardDate{
-  gap:12  px;
+  gap:12px;
   display: flex;
 align-items: center;  
 /* justify-content: center; */
