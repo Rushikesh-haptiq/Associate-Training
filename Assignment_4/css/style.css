@@ -17,7 +17,6 @@ h1 {
 }
 
 .headerSection{
-  
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
@@ -364,6 +363,7 @@ align-items: center;
   h1{
     font-size: 44px;
   }
+
 .cards{
   width: 100%;
 }
@@ -389,7 +389,12 @@ margin-bottom: 20px ;
 .info{
  display: flex;
  flex-wrap: nowrap;
+ margin:0 auto;
+ align-items: center;
  flex-direction: column;
+}
+.comInfo{
+  display: flex;
 }
 .IndustryCard2{
   padding: 50px 0;
@@ -401,6 +406,7 @@ footer{
   background-color: #252b42;
   color: #fafafa;
 }
+
 .footerSection{
   background-color: #252b42;
   gap: 20px;
@@ -409,6 +415,7 @@ footer{
   align-items: center;
   text-align: center;
   margin: 0 auto;
+
 }
 }
 
