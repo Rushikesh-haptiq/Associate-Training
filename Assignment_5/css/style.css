@@ -14,7 +14,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 80px;
   padding: 20px;
 }
 
@@ -100,10 +99,10 @@ img {
   /* border-radius: 50%; */
 }
 .FirstSection {
-  margin-bottom: 80px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 60px  0;
   /* border: 2px solid red; */
 }
 .HeroSection {
@@ -195,6 +194,7 @@ letter-spacing: 0px;
   letter-spacing: 0px;
   margin-bottom: 40px;
 }
+
 .FeatureSection{
   padding:50px 0;
 }
@@ -325,6 +325,7 @@ footer div {
   }
   .cardDate span {
     font-size: 16px;
+
   }
   .PostItems{
     justify-content: center;
