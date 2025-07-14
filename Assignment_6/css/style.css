@@ -264,6 +264,8 @@ header {
 .serviceCard {
   padding: 46px 30px;
   /* gap: 45px; */
+  max-width: 338px;
+  max-height: 542px;
   background: #ffffff;
   display: flex;
   flex-direction: column;
