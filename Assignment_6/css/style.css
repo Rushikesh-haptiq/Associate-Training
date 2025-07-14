@@ -67,7 +67,6 @@ header {
 }
 .contentPart > div {
   font-weight: 700;
-  font-style: Bold;
   font-size: 16px;
   line-height: 125%;
   letter-spacing: 5px;
@@ -75,6 +74,9 @@ header {
   margin-bottom: 18px;
 }
 .contentPart > h1 {
+ font-family: Crimson Text;
+
+
   font-weight: 700;
   font-size: 40px;
   line-height: 125%;
