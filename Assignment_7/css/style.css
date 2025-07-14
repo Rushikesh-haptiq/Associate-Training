@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans";
+}
+
+/* header part */
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+nav ul li a:hover {
+  font-size: 20px;
+  font-family: bold;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+}
+/* header {
+  background-color: #74c69d;
+} */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu{
+  display: none;
+}
+/* container */
+.container {
+  max-width: 1180px;
+  padding: 16px;
+  margin: 0 auto;
+}
+/* banner part */
+/* .bannerSection {
+  background: #74c69d;
+  padding: 125px 0;
+  margin-top: -100px;
+} */
+.bannerSection > div {
+  display: flex;
+ justify-content: center;
+  align-items: center;
+
+  /* flex-wrap: wrap; */
+}
+.contentPart {
+ 
+  padding: 41px 0;
+  color: #ffffff;
+}
+.contentPart > div {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.contentPart > h1 {
+ font-family: Crimson Text;
+
+
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  margin-bottom: 18px;
+}
+.contentPart p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  margin-bottom: 25px;
+}
+.contentPart a {
+  background-color: #ffffff;
+  padding: 10px 40px;
+  font-family: Work Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+  line-height: 125%;
+  letter-spacing: 0px;
+  text-align: center;
+}
+/* section 2 */
+.ls-1 {
+    letter-spacing: 0.05em; /* 0.05 times the current font-size */
+}
+.ls-2 {
+    letter-spacing: 0.1em;
+}
+.ls-tight {
+    letter-spacing: -0.025em;
+}
+.ls-px-wide {
+    letter-spacing: 5px;
+}
+.ls-normal {
+    letter-spacing: normal;
+}
+.turstSection {
+  padding: 40px 0;
+}
+.turstContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.turstContent > div {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #74c69d;
+  margin-bottom: 12px;
+}
+.turstContent > h2 {
+  font-family: Crimson Text;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.turstContent > p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.imgLinks {
+  display: flex;
+  /* flex-wrap: wrap; */
+  list-style: none;
+  /* border: 2px solid rebeccapurple; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.btnItem {
+  background-color: #000000;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0px;
+}
+/* infosection1 part */
+.InfoSection{
+  padding: 50px 0;
+}
+.InfoSection > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  /* flex-wrap: wrap; */
+  /* text-align: center; */
+}
+.contentData {
+  max-width: 100%;
+}
+.contentData h2 {
+  font-family: Crimson Text;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 10px;
+  line-height: 125%;
+  letter-spacing: 0px;
+}
+.contentData p {
+  font-weight: 400;
+  color: #21252980;
+  margin-bottom: 40px;
+  font-size: 15px;
+  line-height: 125%;
+  letter-spacing: 0px;
+}
+.reverse > div {
+  flex-direction: row-reverse;
+}
+/* card section */
+.cardSection {
+  padding: 50px 0;
+}
+.cards {
+  display: flex;
+  padding: 50px 0;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  padding: 20px 40px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  
+  box-shadow: 3px 4px 12px 1px #00000040;
+}
+
+.imageWrapper {
+  overflow: hidden;
+  display: flex;
+  max-width:175px;
+  max-height: 175px;
+  justify-content: center;
+  border: 1px solid black;
+  box-shadow: 0 13px #edf7fa;
+  margin-bottom: 10px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.card h2 {
+  font-family: "Crimson Text";
+  font-weight: 700;
+  color: #212529;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+}
+.card div:nth-child(3) {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #212529bf;
+}
+/* service page */
+.serviceSection{
+  padding: 20px 0;
+}
+.serviceCards {
+  display: flex;
+  padding: 133px 0;
+  gap: 40px;
+  align-items: center;
+}
+.serviceCard {
+  padding: 46px 30px;
+  /* gap: 45px; */
+  max-width: 338px;
+  max-height: 542px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 4px 12px 1px #00000040;
+}
+.serviceCard h4 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 15px;
+  line-height: 125%;
+  letter-spacing: 0px;
+}
+.serviceCard > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.serviceCard > div > span:nth-child(1) {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: 0px;
+}
+.serviceCard > div > span:nth-child(2) {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: gray;
+}
+.serviceCard > p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: gray;
+  margin-bottom: 40px;
+}
+.serviceCard ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.serviceCard ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+/* footer */
+footer {
+  padding: 10px 0;
+  background: #74c69d;
+}
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+footer > div > ul {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+}
+.footerCopyRight {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 125%;
+  letter-spacing: 0px;
+  text-align: right;
+}
+/* 768px */
+@media screen and (max-width:767px) {
+nav ul {
+  display: none;
+}
+.menu{
+  display: flex;
+}
+ .bannerSection{
+ padding:90px 0;
+ }
+  .bannerSection>div{
+    flex-direction: column-reverse;
+  }
+  .contentPart p{
+    margin-bottom: 50px;
+  }
+  .turstContent p{
+    margin-bottom:20px;
+  }
+  .imgLinks{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 0 auto;
+  }
+  .InfoSection>div{
+    flex-direction: column;
+  }
+  .cards{
+    justify-content: center;
+    gap: 40px;
+  }
+  footer>div{
+  flex-direction: column;
+  gap: 20px;
+  }
+}
+/* 991px */
+@media screen and (max-width:991px) {
+  .container{
+    max-width: 991px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .contentPart > h1{
+    font-size: 28px;
+  }
+  .InfoSection
+.InfoSection>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px; 
+}
+
+.contentData h2{
+  font-size: 26px;
+}
+.contentData p{
+  font-size: 14px;
+}
+.imgContainer img{
+    max-width: 100%;
+}
+.imgLinks img{
+  max-width: 100%;
+  gap: 12px;
+}
+.serviceCards{
+  flex-direction: column;
+}
+}
+@media screen and (max-width:1024px) {
+  .contentPart > h1{
+    font-size: 28px;
+    
+  }
+  
+}
