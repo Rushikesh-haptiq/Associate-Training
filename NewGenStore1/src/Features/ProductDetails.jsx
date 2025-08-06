@@ -69,7 +69,7 @@ const ProductDetails = () => {
 
   return (
     <>
-      {/* Product Section */}
+      =
       <div className="  p-6 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 bg-gray-50 items-start ">
       
         <div className="flex justify-center items-center bg-white rounded-3xl shadow-xl p-6">

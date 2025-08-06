@@ -17,9 +17,9 @@ const searchTerm = useSelector((state)=>state.search.searchTerm.toLowerCase());
         setBags(data.products);
         setFilteredProducts(data.products);
         // console.log(data);
-        const Reviews = data.products.flatMap(product=>product.reviews.map(review=>({
+         const Reviews = data.products.flatMap(product => product.reviews?.map(review => ({
           ...review,
-          productTitle:product.title,
+          productTitle: product.title,
         })) || []
       );
       setReview(Reviews.slice(0,5));
@@ -44,7 +44,7 @@ const searchTerm = useSelector((state)=>state.search.searchTerm.toLowerCase());
   return (
     <div className='min-h-screen py-4 px-2 mx-auto'>
      
-      <h2 className='text-4xl capitalize font-bold my-6'>Laptops</h2>
+      <h2 className='text-4xl capitalize font-bold my-6'>Bags</h2>
       
     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6'>
         {filteredProduct.length > 0 ? (
