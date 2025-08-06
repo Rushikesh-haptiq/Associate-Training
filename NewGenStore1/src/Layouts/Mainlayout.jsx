@@ -31,7 +31,7 @@ const Mainlayout = () => {
   }, [isOpen]);
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col  min-h-screen">
       <Navbar />
       <Subnavbar />
       <div className="flex-grow">

@@ -23,7 +23,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full bg-white shadow-md relative">
+    <nav className="w-full  bg-white shadow-md ">
       <div className="flex justify-between items-center px-6 py-4">
         {/* Logo */}
         <Link to="/" className="text-2xl font-bold hover:opacity-90">

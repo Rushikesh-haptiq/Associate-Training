@@ -25,7 +25,7 @@ const Cart = () => {
 
           <div className="flex-1">
             <h3 className="font-semibold">{item.name}</h3>
-            <p>₹{item.unitPrice * item.quantity}</p>
+            <p>$ {item.unitPrice * item.quantity}</p>
 
             <div className="flex items-center gap-2 mt-2">
               <button
@@ -56,7 +56,7 @@ const Cart = () => {
       
       <div className="flex justify-between items-center pt-4 font-bold text-lg">
         <span>Total:</span>
-        <span>₹{totalAmount}</span>
+        <span>$ {Math.round(totalAmount)}</span>
       </div>
     </div>
   );

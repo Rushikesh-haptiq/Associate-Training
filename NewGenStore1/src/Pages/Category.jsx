@@ -38,7 +38,7 @@ const Category = () => {
           }))
         );
 
-        setReviews(allReviews.slice(0, 20));
+        setReviews(allReviews.slice(0, 6));
       } catch (error) {
         console.error('Error fetching products or reviews:', error);
       }

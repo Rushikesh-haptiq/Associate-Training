@@ -12,10 +12,10 @@ const Banner = () => {
   };
 
   const images = [
-    'Images/banner.png',
-    'Images/banner2.png',
-    'Images/banner3.png',
-    'Images/la.png',
+    'https://byshree.com/cdn/shop/articles/Banner-1.jpg?v=1667985708&width=2048',
+    'https://www.chuwi.com/public/upload/image/20220415/c16c2ea0cc141680d7ca75ea66bc84e1.jpg',
+    'Images/bags.png',
+    'https://cdn.shopify.com/s/files/1/1902/9663/files/boss_collection-new-2021_2048x2048.jpg?v=1614921124',
   ];
 
   return (
@@ -33,7 +33,7 @@ const Banner = () => {
       <img
         src={src}
         alt={`Slide ${index + 1}`}
-        className="w-full lg:h-[1000px] h-full md:h-[500px] object-cover overflow-hidden"
+        className="w-full lg:h-[600px] h-full md:h-[500px] object-cover "
       />
     </div>
   ))}
