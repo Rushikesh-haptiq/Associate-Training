@@ -24,8 +24,12 @@ const wishlistSlice = createSlice({
     },
     removeFromWishlist: (state, action) => {
       const updated = state.filter((item) => item.id !== action.payload);
-      saveWishlist(updated); // Save after mutation
-      return updated;
+      // saveWishlist(updated); // Save after mutation
+      // if(index !==-1){
+      //   state.splice(index,1);
+      //   saveWishlist(state);
+      // }
+      return  updated;
     },
   },
 });

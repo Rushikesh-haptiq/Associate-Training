@@ -13,11 +13,8 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      // Step 1: Fetch all users
       const usersRes = await fetch('https://dummyjson.com/users');
       const usersData = await usersRes.json();
-
-      // Step 2: Find user by email
       const foundUser = usersData.users.find(user => user.email === email);
 
       if (!foundUser) {
@@ -25,7 +22,6 @@ const Login = () => {
         return;
       }
 
-      // Step 3: Log in using username & password
       const loginRes = await fetch('https://dummyjson.com/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -42,7 +38,6 @@ const Login = () => {
         return;
       }
 
-      // Success: dispatch login and navigate
       dispatch(login(loginData));
       navigate('/dashboard');
     } catch (error) {
@@ -52,34 +47,45 @@ const Login = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <form onSubmit={handleSubmit} className="bg-white p-6 rounded shadow-md w-96">
-        <h2 className="text-2xl mb-4 font-bold text-center">Login</h2>
-        <input
-          type="email"
-          placeholder="Email"
-          className="w-full p-2 border mb-3 rounded"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          className="w-full p-2 border mb-4 rounded"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-        />
-        <button
-          type="submit"
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white p-2 rounded"
-        >
-          Login
-        </button>
-      </form>
+    <div
+      className="min-h-screen flex items-center justify-center bg-cover bg-center"
+      style={{
+        backgroundImage: "url('https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=1650&q=80')",
+      }}
+    >
+      <div className="bg-white/30 backdrop-blur-lg rounded-lg shadow-lg p-8 w-full max-w-md mx-4 md:mx-0">
+        <h2 className="text-3xl font-bold text-center text-white mb-6">Welcome Back 👋</h2>
+
+        <form onSubmit={handleSubmit} className="space-y-5">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            className="w-full px-4 py-2 border border-white/40 rounded bg-white/20 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-blue-300 transition"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+
+          <input
+            type="password"
+            placeholder="Enter your password"
+            className="w-full px-4 py-2 border border-white/40 rounded bg-white/20 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-blue-300 transition"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+          />
+
+          <button
+            type="submit"
+            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded transition duration-200"
+          >
+            Login
+          </button>
+        </form>
+      </div>
     </div>
   );
 };
 
 export default Login;
+  
